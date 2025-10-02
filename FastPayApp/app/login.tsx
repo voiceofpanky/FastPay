@@ -24,7 +24,7 @@ export default function LoginScreen() {
 
   return (
     <ImageBackground
-      source={{ uri: 'https://www.transparenttextures.com/patterns/shine.png' }}
+      source={require("../assets/images/background.avif")}
       style={styles.background}
       resizeMode="repeat"
     >
